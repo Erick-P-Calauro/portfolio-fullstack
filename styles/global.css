@@ -35,9 +35,7 @@ body {
     font: var(--text-md);
     color: var(--base-gray-200);
     
-    background-image: url("../assets/Background_Intro.png");
-    background-repeat: no-repeat;
-    background-size: cover;
+    background-color: var(--base-gray-500);
 }
 
 .container {
