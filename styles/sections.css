@@ -133,3 +133,46 @@ section#projects {
     }
 
 }
+
+section#services {
+
+    background-color: var(--base-gray-600);
+    padding-block: 90px 200px;
+
+    .container {
+
+        display: grid;
+        justify-items: center;
+        gap: 56px;
+
+        header {
+            display: grid;
+            text-align: center;
+            gap: 8px;
+        }
+
+        .cards {
+            display: grid;
+            grid-auto-flow: column;
+            column-gap: 24px;
+
+            .card {
+                border: 2px solid var(--base-gray-500);
+                border-radius: 12px;
+                padding: 20px;
+
+                h3 {
+                    margin-block: 20px 8px;
+                    font: var(--title-sm);
+                    color: var(--base-gray-100);
+                }
+
+                span {
+                    font: var(--text-sm);
+                    color: var(--base-gray-100);
+                }
+            }
+        }
+    }
+
+}
