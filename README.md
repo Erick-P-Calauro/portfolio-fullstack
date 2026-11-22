@@ -2,7 +2,7 @@
 
 # Portfólio de Desenvolvedor
 
-Este repositório contém minha implementação do desafio prático "Portfólio Dev" do módulo "Layouts Avançados com CSS" da Formação Full-Stack da Rocketseat. 
+Este repositório contém minha implementação do desafio prático "Portfólio Dev" do módulo "Avançando no HTML e CSS" da Formação Full-Stack da Rocketseat. 
 
 Veja o resultado em : https://erick-p-calauro.github.io/portfolio-fullstack.
 
