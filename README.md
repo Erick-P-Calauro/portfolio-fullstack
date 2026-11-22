@@ -1,3 +1,5 @@
+<img width="1819" height="882" alt="desafio-portfolio" src="https://github.com/user-attachments/assets/d9cf0aac-0a67-43b2-b1bb-da20f8fcbc48" />
+
 # Portfólio de Desenvolvedor
 
 Este repositório contém minha implementação do desafio prático "Portfólio Dev" do módulo "Layouts Avançados com CSS" da Formação Full-Stack da Rocketseat. 
