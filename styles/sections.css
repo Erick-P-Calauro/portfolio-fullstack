@@ -72,11 +72,11 @@ section#intro {
                 padding: 8px 16px;
 
                 background-color: var(--base-gray-400);
+            }
 
-                img {
-                    width: 24px;
-                    height: 24px;
-                }
+            img {
+                width: 24px;
+                height: 24px;
             }
         }
 
