@@ -2,7 +2,7 @@ section#intro {
 
     background-image: url("../assets/Background_Intro.png");
     background-repeat: no-repeat;
-    background-size: cover;
+    background-size: 100% 100%;
 
     .container {
         
@@ -75,6 +75,56 @@ section#intro {
 
         & > img {
             margin-top: 90px;
+        }
+    }
+
+}
+
+section#projects {
+
+    display: grid;
+    justify-items: center;
+    gap: 56px;
+
+    padding-block: 72px 144px;
+
+    header {
+        text-align: center;
+
+        h2 {
+            margin-top: 8px;
+        }
+    }
+
+    .cards {
+        
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        grid-template-rows: repeat(2, 1fr);
+        gap: 24px;
+    
+        .card {
+            
+            background-color: var(--base-gray-400);
+            padding: 12px 12px 18px 12px;
+            border-radius: 12px;
+
+            img {
+                height: 156px;
+                object-fit: cover;
+                border-radius: 12px;
+            }
+
+            h3 {
+                font: var(--title-sm);
+                color: var(-base-gray-100);
+                margin-block: 24px 8px;
+            }
+
+            span {
+                font: var(--text-sm);
+                color: var(--base-gray-200);
+            }
         }
     }
 
