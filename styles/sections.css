@@ -135,8 +135,9 @@ section#projects {
             }
 
             img {
-                height: 156px;
-                object-fit: cover;
+                width: 306px;
+                height: 180px;
+
                 border-radius: 12px;
             }
 
