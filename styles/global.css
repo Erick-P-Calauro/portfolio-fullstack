@@ -29,6 +29,8 @@
     --subtitle: 20px/120% var(--subtitle-font-family);
     --text-md: 16px/140% var(--text-font-family);
     --text-sm: 14px/140% var(--text-font-family);
+
+    scroll-behavior: smooth;
 }
 
 body {
