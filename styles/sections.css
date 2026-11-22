@@ -109,6 +109,10 @@ section#projects {
             padding: 12px 12px 18px 12px;
             border-radius: 12px;
 
+            &:hover {
+                border: 1.5px solid var(--base-gray-300)
+            }
+
             img {
                 height: 156px;
                 object-fit: cover;
