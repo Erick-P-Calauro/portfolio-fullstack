@@ -39,3 +39,9 @@ body {
     background-repeat: no-repeat;
     background-size: cover;
 }
+
+.container {
+    max-width: 1366px;
+    padding-inline: 163px;
+    margin-inline: auto;
+}

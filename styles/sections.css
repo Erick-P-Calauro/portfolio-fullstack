@@ -1,0 +1,74 @@
+section#intro {
+
+    display: grid;
+    justify-items: center;
+
+    padding-block: 120px 60px;
+
+    header {
+        display: grid;
+        place-items: center;
+        gap:64px;
+
+        padding-inline: 180px;
+        padding-bottom: 80px;
+
+        #avatar {
+            position: relative;
+            inset: 0;
+
+            & :nth-child(1) {
+                width: 96px;
+                height: 96px;
+
+                border: 2px solid var(--principal-blue);
+                border-radius: 1000px;
+            }
+
+            & :nth-child(2) {
+                width: 32px;
+                height: 32px;
+
+                position: absolute;
+                bottom: 0;
+                right: 0;
+            }
+        }
+
+        #info {
+            display: grid;
+            text-align: center;
+
+            h1 {
+                padding-block: 8px 20px;
+            }
+        }
+    }
+
+    #tags {
+        display: flex;
+        align-items: center;
+        gap: 16px;
+
+        justify-self: center;
+
+        margin-inline: auto;
+
+        .tag {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            
+            border-radius: 10px;
+
+            padding: 8px 16px;
+
+            background-color: var(--base-gray-400);
+        }
+    }
+
+    & > img {
+        margin-top: 90px;
+    }
+
+}
