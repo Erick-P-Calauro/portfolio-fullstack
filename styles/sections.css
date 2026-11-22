@@ -118,7 +118,7 @@ section#projects {
             h3 {
                 font: var(--title-sm);
                 color: var(-base-gray-100);
-                margin-block: 24px 8px;
+                margin-block: 20px 8px;
             }
 
             span {
