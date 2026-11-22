@@ -1,0 +1,71 @@
+/* Typography */
+
+.text-3xl {
+    font: var(--title-lg);
+}
+
+.text-2xl {
+    font: var(--title-md);
+}
+
+.text-xl {
+    font: var(--subtitle);
+}
+
+.text-lg {
+    font: var(--title-sm);
+}
+
+.text-md {
+    font: var(--text-md);
+}
+
+.text-sm {
+    font: var(--text-sm);
+}
+
+/* Colors */
+
+.color-red {
+    color: var(--principal-red);
+}
+
+.color-purple {
+    color: var(--principal-purple);
+}
+
+.color-blue {
+    color: var(--principal-blue);
+}
+
+.color-green {
+    color: var(--principal-green);
+}
+
+.color-yellow {
+    color: var(--principal-yellow);
+}
+
+.color-gray-100 {
+    color: var(--base-gray-100);
+}
+
+.color-gray-200 {
+    color: var(--base-gray-200);
+}
+
+.color-gray-300 {
+    color: var(--base-gray-300);
+}
+
+.color-gray-400 {
+    color: var(--base-gray-400);
+}
+
+.color-gray-500 {
+    color: var(--base-gray-500);
+}
+
+.color-gray-600 {
+    color: var(--base-gray-600);
+}
