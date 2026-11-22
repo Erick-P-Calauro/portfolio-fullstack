@@ -176,3 +176,81 @@ section#services {
     }
 
 }
+
+section#contact {
+    
+    background-image: url("../assets/Background_Contacts.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+
+    padding-block: 128px 200px;
+
+    .container {
+        display: grid;
+        justify-items: center;
+        gap: 48px;
+
+        header {
+            display: grid;
+            text-align: center;
+
+            h3 {
+                margin-block: 8px;
+            }
+        }
+
+        .links {
+
+            display: grid;
+            gap: 16px;
+
+            .link {
+
+                & > img {
+                    width: 20px;
+                    height: 20px;
+                }
+
+                &:hover {
+                    border: 2px solid var(--principal-blue);
+
+                    div {
+
+                        & :nth-child(1) {
+                            display: none;
+                        }
+
+                        & :nth-child(2) {
+                            display: inline;
+                        }
+                    }
+                }
+
+                width: 400px;
+
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+
+                font: var(--text-md);
+                color: var(--base-gray-200);
+                text-decoration: none;
+
+                padding: 20px;
+                background-color: var(--base-gray-400);
+                border-radius: 8px;
+
+                div {
+                    display: flex;
+                    align-items: center;
+                    gap: 12px;
+
+                    & img:nth-child(2) {
+                        display: none;
+                    }
+                }
+            }
+
+        }
+    }
+}
